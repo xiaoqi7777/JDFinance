@@ -3,6 +3,8 @@
       <Header></Header>
       <Slider/>
       <Welfare/>
+      <Active/>
+      <ActiveTwo/>
       <Footer/>
       <Nav></Nav>
     </div>
@@ -14,6 +16,8 @@ import Footer  from '../public/footer.vue';
 import Nav     from '../public/navbar.vue';
 import Slider  from './lslider.vue';
 import Welfare from './welfare.vue';
+import Active from './active';
+import ActiveTwo from './activeTwo';
 export default {
   components:{
     Header,
@@ -21,6 +25,8 @@ export default {
     Nav, 
     Slider,
     Welfare,
+    Active,
+    ActiveTwo,
   }
 }
 </script>

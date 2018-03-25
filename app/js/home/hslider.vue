@@ -3,7 +3,7 @@
     <Slider :items="items" :cname="$style.slider"></Slider>
     <section :class="$style.list">
             <div :class="$style.item" v-for="item in enters" :key="item.img">
-                  <router-link to="{name:item.href}">
+                  <router-link :to="{name:item.href}">
                     <img :src="item.img" :alt="item .title">
                     <h4>{{item.title}}</h4>
                   </router-link>
@@ -35,7 +35,7 @@ import Slider from '../core/slider.vue'
               src:'//img12.360buyimg.com/jrpmobile/jfs/t17629/166/898097125/49242/b5b977e1/5aaf93fcN5923f55e.jpg?width=750&height=320'
           },],
           enters:[{
-            href:'#',
+            href:'download',
             img:'//img12.360buyimg.com/jrpmobile/jfs/t3991/64/2521945388/12110/93c0139/58d1e462Ncf294123.png?width=132&height=132',
             title:'优惠卷'
           },{
