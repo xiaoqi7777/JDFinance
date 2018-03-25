@@ -67,7 +67,7 @@ import Slider from '../core/slider.vue'
   }
   .list{
     width: 100%;
-    @include list(row);
+    @include list(row); 
     background: #fff;
     padding-top: 40px;
     padding-bottom: 20px;

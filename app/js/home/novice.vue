@@ -29,7 +29,7 @@ import Panel from '../core/panel.vue'
             title:'定期理财',
             span:'90天可质押',
             number:5.50,
-            desc:'历史年化结算利息'
+            desc:'历史年化结算利息' 
           },{
             title:'定期理财',
             span:'90天可质押',

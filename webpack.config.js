@@ -34,7 +34,7 @@ module.exports = env => {
       quiet: true
     },
     module: {
-      loaders: [
+      loaders: [ 
         {
           test: /\.html$/,
           loader: 'html-loader'

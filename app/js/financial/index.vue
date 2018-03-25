@@ -19,7 +19,7 @@ import Nav     from '../public/navbar.vue';
 import Mslider from './mslider.vue';
 import Active from  './active.vue';
 import Novice from  './novice.vue';
-import ActiveTwo from './activeTwo.vue';
+import ActiveTwo from './activeTwo.vue'; 
 import Monery  from   './monry.vue' 
 export default {
   components:{

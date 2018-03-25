@@ -17,7 +17,7 @@
 import Panel from '../core/panel.vue';
 export default {
     components:{
-      Panel
+      Panel 
     },
     data(){
       return{

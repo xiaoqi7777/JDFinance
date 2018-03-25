@@ -73,7 +73,7 @@ import Panel from '../core/panel.vue'
   .listContent{
     @include list(row);
     width: 100%;
-    padding-top: 40px;
+    padding-top: 40px; 
     margin-bottom: 20px;
     justify-content: space-around;
     .list{

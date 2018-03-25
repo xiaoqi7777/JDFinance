@@ -23,7 +23,7 @@ import btn from '../core/btn.vue';
   height: 100px;
   line-height: 100px;
   position: fixed;
-  top: 0;
+  top: 0; 
   left: 0;
   //right: 0;
   width: 100%;

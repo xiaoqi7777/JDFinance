@@ -72,7 +72,7 @@ import Panel from '../core/panel.vue'
           border-right: 1px solid #eee;
         }
         div{
-              height: 42px;
+              height: 42px; 
             line-height: 42px;
             box-sizing: border-box;
             margin: 34px 0 16px;

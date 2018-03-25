@@ -14,7 +14,7 @@
 <script>
 import Header  from '../public/header';
 import Slider  from './hslider.vue';
-import Novice  from './novice.vue';
+import Novice  from './novice.vue'; 
 import Product from './product.vue';
 import Move    from './move.vue';
 import Car     from './car.vue';

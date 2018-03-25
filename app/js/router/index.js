@@ -26,4 +26,4 @@ export default new Router({
             component: Lous,
         },
     ],
-})
+}) 

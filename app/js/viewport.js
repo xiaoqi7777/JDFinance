@@ -18,7 +18,7 @@
 
         //允许通过自定义name为hotcss的meta头，通过initial-dpr来强制定义页面缩放
         if (hotcssEl) {
-            var hotcssCon = hotcssEl.getAttribute('content');
+            var hotcssCon = hotcssEl.getAttribute('content'); 
             if (hotcssCon) {
                 var initialDprMatch = hotcssCon.match(/initial\-dpr=([\d\.]+)/);
                 if (initialDprMatch) {

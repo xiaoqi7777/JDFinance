@@ -70,7 +70,7 @@ import Slider from '../core/slider.vue';
 <style lang='scss' module>
 @import '../../css/element.scss';
 .panel{
-  @include panel;
+  @include panel; 
   >h4{
       font-weight: 700      
   }

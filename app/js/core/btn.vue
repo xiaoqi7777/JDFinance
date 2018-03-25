@@ -12,7 +12,7 @@
           default:'',
         }
     },
-    data(){
+    data(){ 
       return{
         btnClass:"btn",
       }

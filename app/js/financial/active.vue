@@ -17,7 +17,7 @@ import Panel from '../core/panel.vue'
 @import '../../css/element.scss';
 .panel{
   @include panel;
-  >h4{
+  >h4{ 
     display: none;
   }
   img{

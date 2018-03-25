@@ -63,7 +63,7 @@ export default {
         width: 88px;
         text-align: center;
         background: #fff;
-        margin: 24px 32px 0;
+        margin: 24px 32px 0; 
         color: #9891FF;
       }
       div{

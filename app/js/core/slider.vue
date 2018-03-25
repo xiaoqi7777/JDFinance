@@ -18,7 +18,7 @@ import { swiper, swiperSlide } from 'vue-awesome-swiper';
       items:Array,
       cname:String,
       options:{
-        type:Object,
+        type:Object, 
         default() {
             return{
                 //自动
