@@ -19,6 +19,11 @@ import Slider from '../core/slider.vue'
     components:{
       Slider
     },
+    methods:{
+        sg(e){
+          console.log('sss',e)
+        }
+    },
     data(){
       return{
         items:[{
